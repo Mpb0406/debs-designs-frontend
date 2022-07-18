@@ -79,6 +79,7 @@ const Cart = () => {
           {cartItems.length >= 1 &&
             cartItems.map((item) => (
               <motion.div
+                key={item.slug}
                 layout
                 variants={card}
                 id="item-card"

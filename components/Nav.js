@@ -2,6 +2,7 @@ import React from "react";
 import { FiShoppingCart } from "react-icons/fi";
 import Cart from "./Cart";
 import { useStateContext } from "../lib/context";
+import Link from "next/link";
 const { AnimatePresence, motion } = require("framer-motion");
 
 const Nav = () => {
@@ -9,10 +10,10 @@ const Nav = () => {
   return (
     <nav className="fixed top-0 left-0 w-full z-10 bg-green-500 shadow-lg">
       <div className="flex items-center justify-between my-3 mx-12 ">
-        <h4 className="cursor-pointer text-slate-100 font-display">
-          <a href="/" className="font-display text-3xl">
+        <h4 className="cursor-pointer text-slate-100 font-display text-3xl">
+          <Link href="/" className="font-display ">
             Deb's Designs
-          </a>
+          </Link>
         </h4>
         <div
           className="flex items-center gap-2 cursor-pointer text-green-500 relative"

@@ -19,7 +19,7 @@ const Hero = () => {
             stiffness: 200,
           }}
           className=" text-6xl text-gray-200 tracking-wider text-center leading-relaxed">
-          Deb's Designs
+          Deb&apos;s Designs
         </motion.h1>
         <motion.a
           initial={{ opacity: 0, y: 50 }}

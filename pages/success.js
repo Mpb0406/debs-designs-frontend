@@ -13,7 +13,7 @@ export async function getServerSideProps(params) {
 }
 
 const success = ({ order }) => {
-  const route = useRouter();
+  const Route = useRouter();
 
   return (
     <div className="mt-20 md:w-3/4 w-full mx-auto p-12 flex flex-col items-center rounded-md ">
@@ -42,7 +42,7 @@ const success = ({ order }) => {
           ))}
         </div>
         <button
-          onClick={() => route.push("/")}
+          onClick={() => Route.push("/")}
           className="px-6 py-3 mt-6 bg-green-400 text-white hover:bg-green-500 duration-200">
           Continue Shopping
         </button>
