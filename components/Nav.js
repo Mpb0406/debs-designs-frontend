@@ -12,7 +12,7 @@ const Nav = () => {
       <div className="flex items-center justify-between my-3 mx-12 ">
         <h4 className="cursor-pointer text-slate-100 font-display text-3xl">
           <Link href="/" className="font-display ">
-            Deb's Designs
+            Deb&apos;s Designs
           </Link>
         </h4>
         <div
